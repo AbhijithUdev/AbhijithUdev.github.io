@@ -434,7 +434,7 @@ function hydrateContactSection() {
 
   const githubEl = document.getElementById("contactGithubVal");
   if (githubEl) {
-    githubEl.textContent = "github.com/Udeeshsushama";
+    githubEl.textContent = "github.com/AbhijithUdev";
     githubEl.href = personal.github;
   }
 

@@ -36,7 +36,7 @@ const portfolioData = {
     // CONTACT & SOCIAL LINKS
     // Notice: Your real GitHub, LinkedIn, and Email are now configured!
     email: "udeeshsushamakk@gmail.com",
-    github: "https://github.com/Udeeshsushama",
+    github: "https://github.com/AbhijithUdev",
     linkedin: "https://www.linkedin.com/in/abhijith-u-1b1365384/?isSelfProfile=true",
     twitter: "https://twitter.com/your_handle", // [PLACEHOLDER - Optional]
 
@@ -53,7 +53,7 @@ const portfolioData = {
     { label: "Skills", href: "#skills", external: false },
     { label: "Projects", href: "#projects", external: false },
     { label: "Education", href: "#education", external: false },
-    { label: "GitHub", href: "https://github.com/Udeeshsushama", external: true },
+    { label: "GitHub", href: "https://github.com/AbhijithUdev", external: true },
     { label: "LinkedIn", href: "https://www.linkedin.com/in/abhijith-u-1b1365384/?isSelfProfile=true", external: true }
   ],
 
@@ -88,7 +88,7 @@ const portfolioData = {
       statusColor: "amber", // 'emerald' | 'amber' | 'blue'
       tags: ["Python", "Socket Programming", "Cyber Security", "CLI"],
       links: {
-        github: "https://github.com/Udeeshsushama",
+        github: "https://github.com/AbhijithUdev",
         demo: null // Set to live URL when available, or null
       },
       // Terminal display snippet shown inside the graphite window
@@ -134,7 +134,7 @@ scanner.probe_port(443)  # HTTPS verification: OK [200]`
       statusColor: "amber",
       tags: ["HTML5", "CSS3", "Python", "OWASP"],
       links: {
-        github: "https://github.com/Udeeshsushama",
+        github: "https://github.com/AbhijithUdev",
         demo: "#" // [PLACEHOLDER - Add demo link if available]
       }
     },
@@ -149,7 +149,7 @@ scanner.probe_port(443)  # HTTPS verification: OK [200]`
       statusColor: "emerald",
       tags: ["HTML5", "CSS3", "Vanilla JS", "Design System"],
       links: {
-        github: "https://github.com/Udeeshsushama",
+        github: "https://github.com/AbhijithUdev",
         demo: "#" // [PLACEHOLDER - Add live link if available]
       }
     }
@@ -248,7 +248,7 @@ scanner.probe_port(443)  # HTTPS verification: OK [200]`
   footer: {
     copyrightNotice: "© 2026 Abijith.U. Engineered for precision and clarity.",
     socialLinks: [
-      { label: "GitHub", href: "https://github.com/Udeeshsushama" },
+      { label: "GitHub", href: "https://github.com/AbhijithUdev" },
       { label: "LinkedIn", href: "https://www.linkedin.com/in/abhijith-u-1b1365384/?isSelfProfile=true" },
       { label: "Email", href: "mailto:udeeshsushamakk@gmail.com" }
     ]

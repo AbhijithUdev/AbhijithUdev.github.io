@@ -45,7 +45,7 @@ Open `js/data.js` in any text editor. It contains thoroughly commented sections 
    - Name, role headline, and 2-3 sentence confident bio.
    - Formspree form ID: replace `YOUR_FORMSPREE_ID` with your ID from [formspree.io](https://formspree.io).
 2. **Navigation Links:**
-   - Real GitHub (`https://github.com/Udeeshsushama`) and LinkedIn (`https://www.linkedin.com/in/abhijith-u-1b1365384/?isSelfProfile=true`) are already linked in the nav and contact section.
+   - Real GitHub (`https://github.com/AbhijithUdev`) and LinkedIn (`https://www.linkedin.com/in/abhijith-u-1b1365384/?isSelfProfile=true`) are already linked in the nav and contact section.
 3. **Projects:**
    - **Featured Project:** Renders automatically inside the Deep Graphite panel with interactive code snippet and metrics.
    - **Secondary Projects:** Soft white cards with status chips (`Live`, `In Progress`), tags, and GitHub/Demo links.
@@ -78,22 +78,17 @@ Then visit `http://localhost:3000` in your browser.
 
 ---
 
-## 🌐 How to Deploy (Free & Instant)
+## 🌐 How to Deploy (Free & Instant on GitHub Pages)
 
-### 1. GitHub Pages
-1. Push this project to your GitHub repository:
-   ```bash
-   git init
-   git add .
-   git commit -m "Initial portfolio release with Auralis design system"
-   git branch -M main
-   git remote add origin https://github.com/Udeeshsushama/portfolio.git
-   git push -u origin main
-   ```
-2. On GitHub, navigate to **Settings > Pages**.
-3. Under **Build and deployment > Source**, select **Deploy from a branch**.
-4. Choose the `main` branch and `/ (root)` folder, then click **Save**.
-5. Your portfolio will be live at `https://Udeeshsushama.github.io/portfolio/` in 1-2 minutes!
+### 1. Push to your `AbhijithUdev.github.io` repository:
+```bash
+git remote add origin https://github.com/AbhijithUdev/AbhijithUdev.github.io.git
+git branch -M main
+git push -u origin main
+```
+
+Your website will automatically be live at:  
+👉 **`https://abhijithudev.github.io/`**
 
 ### 2. Vercel
 1. Go to [vercel.com](https://vercel.com).
