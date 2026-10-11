@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+  <rect width="32" height="32" rx="8" fill="#111111"/>
+  <!-- Geometric "A" monogram with engineered apex -->
+  <path d="M16 6.5L8.5 24H12L13.8 19.5H18.2L20 24H23.5L16 6.5Z" fill="#FCFCFB"/>
+  <polygon points="16,11.5 14.5,16.5 17.5,16.5" fill="#111111"/>
+  <!-- Status dot: emerald accent dot symbolizing active security telemetry -->
+  <circle cx="23.5" cy="8.5" r="2" fill="#10B981"/>
+</svg>

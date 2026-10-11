@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Primary SEO Meta Tags -->
+  <title>Abijith.U — Cyber Security & Systems Engineering Portfolio</title>
+  <meta name="title" content="Abijith.U — Cyber Security & Systems Engineering Portfolio">
+  <meta name="description" content="Personal portfolio of Abijith.U — a cyber security student at College of Engineering, Kallooppara who builds with Python and modern web technologies.">
+  <meta name="author" content="Abijith.U">
+  <meta name="keywords" content="Abijith.U, Cyber Security, Python Developer, Portfolio, College of Engineering Kallooppara, Web Development, Network Security, Auralis">
+  <meta name="theme-color" content="#F7F7F5">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://github.com/Udeeshsushama">
+  <meta property="og:title" content="Abijith.U — Cyber Security & Systems Engineering Portfolio">
+  <meta property="og:description" content="Cyber security student who builds with Python and web technologies. Focused on crafting robust, secure systems and modern web interfaces with precision and engineered clarity.">
+  <meta property="og:image" content="assets/favicon.svg">
+
+  <!-- Twitter / X -->
+  <meta property="twitter:card" content="summary">
+  <meta property="twitter:title" content="Abijith.U — Cyber Security & Systems Engineering Portfolio">
+  <meta property="twitter:description" content="Cyber security student who builds with Python and web technologies.">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+
+  <!-- Google Fonts: Inter & JetBrains Mono (Zero build-step) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- =========================================================================
+       1. FIXED GLASS TOP NAVIGATION (72px)
+       ========================================================================= -->
+  <header class="site-header" role="banner">
+    <div class="site-container nav-container">
+      <!-- Logo / Identity -->
+      <a href="#" class="nav-brand" aria-label="Abijith.U Home">
+        <span class="brand-badge" aria-hidden="true"></span>
+        <span id="navBrandName">Abijith.U</span>
+      </a>
+
+      <!-- Desktop Navigation Menu (Hydrated dynamically from data.js) -->
+      <nav aria-label="Primary Navigation">
+        <ul class="nav-menu" id="navMenu">
+          <!-- Populated from portfolioData.navLinks -->
+        </ul>
+      </nav>
+
+      <!-- Desktop Action & Mobile Toggle -->
+      <div class="nav-actions">
+        <a href="#contact" class="btn btn-primary btn-sm">Contact</a>
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="mobileDrawer">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M4 6h16M4 12h16M4 18h16" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Dropdown Navigation Drawer -->
+  <nav class="mobile-drawer" id="mobileDrawer" aria-label="Mobile Navigation">
+    <div id="mobileDrawerMenu">
+      <!-- Populated from portfolioData.navLinks -->
+    </div>
+    <a href="#contact" class="btn btn-primary" onclick="document.getElementById('mobileDrawer').classList.remove('open')">Get in Touch</a>
+  </nav>
+
+  <!-- =========================================================================
+       MAIN CONTENT CANVAS
+       ========================================================================= -->
+  <main id="main-content">
+
+    <!-- =======================================================================
+         2. HERO SECTION
+         ======================================================================= -->
+    <section class="site-container hero-section section-spacer" aria-labelledby="heroHeadline">
+      <!-- Asymmetrical 12-Column Headline & Subhead Header -->
+      <div class="hero-header-grid">
+        <div class="hero-left-col">
+          <div class="module-header" style="margin-bottom: 0;">
+            <div class="module-badge">
+              <span class="status-dot emerald pulse" aria-hidden="true"></span>
+              <span id="heroStatusText">Active: B.Tech CSE (Cyber Security)</span>
+            </div>
+          </div>
+          <h1 class="headline-h1" id="heroHeadline">Securing and building the web.</h1>
+          <div class="hero-cta-group">
+            <a href="#projects" class="btn btn-primary">
+              <span>View Projects</span>
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+            <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+          </div>
+        </div>
+
+        <div class="hero-right-col">
+          <p class="body-lg" id="heroSubheadline">
+            A cyber security student who builds with Python and web technologies. Focused on crafting robust, secure systems and modern web interfaces with precision and engineered clarity.
+          </p>
+        </div>
+      </div>
+
+      <!-- Hero Product Panel with Atmospheric Drifting Orbs -->
+      <div class="hero-showcase-panel">
+        <!-- Top Tab Bar -->
+        <div class="hero-showcase-top">
+          <div class="pill-segmented-tabs" role="tablist">
+            <button class="pill-tab active" role="tab" aria-selected="true">Security Architecture</button>
+            <button class="pill-tab" role="tab" aria-selected="false">Python Tooling</button>
+            <button class="pill-tab" role="tab" aria-selected="false">Web Systems</button>
+          </div>
+          <div class="hero-live-badge">
+            <span class="status-dot emerald pulse" aria-hidden="true"></span>
+            <span>College of Engineering, Kallooppara</span>
+          </div>
+        </div>
+
+        <!-- Atmospheric Blurred Drifting Gradient Orbs -->
+        <div class="hero-orbs-container" aria-hidden="true">
+          <div class="gradient-orb orb-coral"></div>
+          <div class="gradient-orb orb-indigo"></div>
+          <div class="gradient-orb orb-emerald"></div>
+          <div class="gradient-orb orb-sky"></div>
+        </div>
+
+        <!-- Center Frosted Glass Telemetry Widget -->
+        <div class="hero-center-widget">
+          <div class="widget-telemetry-header">
+            <div>
+              <div class="widget-tag">Security Telemetry</div>
+              <div style="font-size: 15px; font-weight: 600; color: var(--text-primary); margin-top: 2px;">
+                Systems Defense & Protocol Probe
+              </div>
+            </div>
+            <div class="widget-spec-badge">
+              <span class="status-dot emerald" aria-hidden="true"></span>
+              <span>Online</span>
+            </div>
+          </div>
+
+          <!-- Dynamic Spectral Frequency Bars -->
+          <div class="spectral-bars-container" aria-hidden="true">
+            <div class="spectral-bar" style="height: 35%;"></div>
+            <div class="spectral-bar" style="height: 60%;"></div>
+            <div class="spectral-bar" style="height: 85%;"></div>
+            <div class="spectral-bar" style="height: 45%;"></div>
+            <div class="spectral-bar" style="height: 95%;"></div>
+            <div class="spectral-bar" style="height: 70%;"></div>
+            <div class="spectral-bar" style="height: 55%;"></div>
+            <div class="spectral-bar" style="height: 80%;"></div>
+            <div class="spectral-bar" style="height: 40%;"></div>
+            <div class="spectral-bar" style="height: 90%;"></div>
+            <div class="spectral-bar" style="height: 65%;"></div>
+            <div class="spectral-bar" style="height: 30%;"></div>
+            <div class="spectral-bar" style="height: 75%;"></div>
+            <div class="spectral-bar" style="height: 50%;"></div>
+          </div>
+
+          <!-- Quick Metrics Grid -->
+          <div class="widget-metrics-row">
+            <div class="telemetry-stat">
+              <span class="telemetry-stat-label">Core Runtime</span>
+              <span class="telemetry-stat-val">Python 3.12</span>
+            </div>
+            <div class="telemetry-stat">
+              <span class="telemetry-stat-label">Security Focus</span>
+              <span class="telemetry-stat-val">Network & Web</span>
+            </div>
+            <div class="telemetry-stat">
+              <span class="telemetry-stat-label">Location</span>
+              <span class="telemetry-stat-val">Kerala, IN</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bottom Glass Action Bar -->
+        <div class="hero-bottom-bar">
+          <div class="hero-pill-tags">
+            <span class="hero-pill-tag active">Socket Programming</span>
+            <span class="hero-pill-tag">Vulnerability Discovery</span>
+            <span class="hero-pill-tag">Defensive Engineering</span>
+            <span class="hero-pill-tag">Responsive UI</span>
+          </div>
+          <a href="#about" class="btn btn-primary btn-sm">Explore Profile</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         3. TRUST STRIP / CORE STACK MARQUEE
+         ======================================================================= -->
+    <section class="trust-strip-section" aria-label="Core Tools and Technologies">
+      <div class="site-container">
+        <div class="label-caps trust-title">Core Technologies & Development Environment</div>
+      </div>
+      <div class="marquee-container" aria-hidden="true">
+        <div class="marquee-track" id="toolsMarqueeTrack">
+          <!-- Populated from portfolioData.tools -->
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         4. PROJECTS SECTION
+         Featured Deep Graphite Showcase + Soft White Cards
+         ======================================================================= -->
+    <section class="site-container section-spacer" id="projects" aria-labelledby="projectsHeadline">
+      <div class="module-header">
+        <span class="module-badge">Selected Works</span>
+        <div class="module-line"></div>
+      </div>
+
+      <div class="section-headline-group">
+        <div class="section-headline-grid">
+          <div class="col-left">
+            <h2 class="headline-h2" id="projectsHeadline">Engineering experiments and security tooling.</h2>
+          </div>
+          <div class="col-right">
+            <p class="body-lg">
+              Explore defensive utilities, security sandboxes, and modern interfaces built with an architectural mindset.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Featured Project: Deep Graphite Panel (#111318) with Glass Terminal -->
+      <div id="featuredGraphiteContainer">
+        <!-- Injected from portfolioData.projects[isFeatured] -->
+      </div>
+
+      <!-- Secondary Projects: Soft White Cards Grid -->
+      <div class="projects-grid" id="secondaryProjectsGrid">
+        <!-- Injected from portfolioData.projects -->
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         5. SKILLS MATRIX
+         ======================================================================= -->
+    <section class="site-container section-spacer" id="skills" aria-labelledby="skillsHeadline">
+      <div class="module-header">
+        <span class="module-badge">Technical Matrix</span>
+        <div class="module-line"></div>
+      </div>
+
+      <div class="section-headline-group">
+        <div class="section-headline-grid">
+          <div class="col-left">
+            <h2 class="headline-h2" id="skillsHeadline">Capabilities, foundations, and active learning.</h2>
+          </div>
+          <div class="col-right">
+            <p class="body-lg">
+              Specialized technical skills across foundational programming languages, cyber security concepts, and modern developer workflows.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="skills-grid" id="skillsGrid">
+        <!-- Populated from portfolioData.skills -->
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         6. ABOUT + EDUCATION SECTION (Two-Column Layout)
+         ======================================================================= -->
+    <section class="site-container section-spacer" id="about" aria-labelledby="aboutHeadline">
+      <div class="module-header">
+        <span class="module-badge">Background & Milestones</span>
+        <div class="module-line"></div>
+      </div>
+
+      <div class="about-edu-grid">
+        <!-- Left Column: Confident & Honest Bio Card -->
+        <div class="about-column">
+          <article class="about-card reveal-on-scroll">
+            <div>
+              <div class="label-caps" style="color: var(--text-secondary); margin-bottom: 8px;">About Abijith</div>
+              <h3 class="headline-h3" id="aboutHeadline">Defensive mindset, pragmatic engineering.</h3>
+            </div>
+            
+            <p id="aboutBioP1">
+              A cyber security student who builds with Python and modern web technologies. Focused on understanding system vulnerabilities, developing secure applications, and crafting clean digital experiences with engineered precision.
+            </p>
+
+            <p id="aboutBioP2">
+              Currently pursuing my B.Tech in Computer Science and Engineering with a specialization in Cyber Security at College of Engineering, Kallooppara. I believe the strongest software is built when sound engineering practices meet a security-first architecture from day one.
+            </p>
+
+            <div class="about-traits-grid">
+              <div class="trait-item">
+                <span class="trait-label">Primary Stack</span>
+                <span class="trait-value">Python · HTML · CSS</span>
+              </div>
+              <div class="trait-item">
+                <span class="trait-label">Specialization</span>
+                <span class="trait-value">Cyber Security</span>
+              </div>
+              <div class="trait-item">
+                <span class="trait-label">Location</span>
+                <span class="trait-value">Kerala, India</span>
+              </div>
+              <div class="trait-item">
+                <span class="trait-label">College</span>
+                <span class="trait-value">CEK Kallooppara</span>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <!-- Right Column: Education Milestones with 1px Dividers -->
+        <div class="edu-column" id="education">
+          <div class="edu-list-container" id="educationList">
+            <!-- Populated from portfolioData.education -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         7. FINAL CALL TO ACTION (CTA)
+         ======================================================================= -->
+    <section class="site-container final-cta-section" aria-labelledby="ctaHeadline">
+      <div class="cta-box reveal-on-scroll">
+        <h2 class="headline-h2 cta-title" id="ctaHeadline">Let's build something together.</h2>
+        <p class="cta-subtitle">
+          Open to collaborative research, technical discussions, and impactful software engineering opportunities.
+        </p>
+        <div class="cta-btn-group">
+          <a href="#contact" class="btn btn-primary">Get in Touch</a>
+          <a href="https://github.com/Udeeshsushama" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+            <span>Explore Repositories</span>
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         8. CONTACT SECTION
+         ======================================================================= -->
+    <section class="site-container section-spacer" id="contact" aria-labelledby="contactHeadline">
+      <div class="module-header">
+        <span class="module-badge">Communication Channel</span>
+        <div class="module-line"></div>
+      </div>
+
+      <div class="section-headline-group">
+        <div class="section-headline-grid">
+          <div class="col-left">
+            <h2 class="headline-h2" id="contactHeadline">Start a direct conversation.</h2>
+          </div>
+          <div class="col-right">
+            <p class="body-lg">
+              Feel free to reach out for project collaboration, security queries, or general networking.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-grid">
+        <!-- Direct Channels Card -->
+        <div class="contact-info-col">
+          <div class="contact-channel-card reveal-on-scroll">
+            <div>
+              <div class="label-caps" style="color: var(--text-secondary); margin-bottom: 6px;">Direct Channels</div>
+              <h3 style="font-size: 20px; font-weight: 600;">Contact Information</h3>
+            </div>
+
+            <!-- GitHub (Real link provided) -->
+            <a href="https://github.com/Udeeshsushama" target="_blank" rel="noopener noreferrer" class="channel-row">
+              <div class="channel-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+              </div>
+              <div class="channel-meta">
+                <span class="channel-label">GitHub</span>
+                <span class="channel-value" id="contactGithubVal">github.com/Udeeshsushama</span>
+              </div>
+            </a>
+
+            <!-- LinkedIn (Real link provided) -->
+            <a href="https://www.linkedin.com/in/abhijith-u-1b1365384/?isSelfProfile=true" target="_blank" rel="noopener noreferrer" class="channel-row">
+              <div class="channel-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+              </div>
+              <div class="channel-meta">
+                <span class="channel-label">LinkedIn</span>
+                <span class="channel-value" id="contactLinkedinVal">linkedin.com/in/abhijith-u-1b1365384</span>
+              </div>
+            </a>
+
+            <!-- Email -->
+            <a href="mailto:udeeshsushamakk@gmail.com" class="channel-row" id="contactEmailLink">
+              <div class="channel-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+              </div>
+              <div class="channel-meta">
+                <span class="channel-label">Email</span>
+                <span class="channel-value" id="contactEmailVal">udeeshsushamakk@gmail.com</span>
+              </div>
+            </a>
+
+            <!-- Location -->
+            <div class="channel-row">
+              <div class="channel-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+              </div>
+              <div class="channel-meta">
+                <span class="channel-label">Location</span>
+                <span class="channel-value" id="contactLocationVal">Kerala, India</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Formspree Contact Form Card -->
+        <div class="contact-form-col">
+          <div class="contact-form-card reveal-on-scroll">
+            <div class="label-caps" style="color: var(--text-secondary); margin-bottom: 6px;">Transmission Channel</div>
+            <h3 style="font-size: 20px; font-weight: 600; margin-bottom: 24px;">Send a Direct Message</h3>
+
+            <form id="contactForm" method="POST" action="https://formspree.io/f/YOUR_FORMSPREE_ID">
+              <div class="form-group">
+                <label for="formName" class="form-label">Your Name</label>
+                <input type="text" id="formName" name="name" class="form-input" placeholder="e.g. Jane Doe" required autocomplete="name">
+              </div>
+
+              <div class="form-group">
+                <label for="formEmail" class="form-label">Email Address</label>
+                <input type="email" id="formEmail" name="email" class="form-input" placeholder="e.g. jane@example.com" required autocomplete="email">
+              </div>
+
+              <div class="form-group">
+                <label for="formSubject" class="form-label">Subject</label>
+                <input type="text" id="formSubject" name="subject" class="form-input" placeholder="e.g. Project Inquiry or Collaboration" required>
+              </div>
+
+              <div class="form-group">
+                <label for="formMessage" class="form-label">Message</label>
+                <textarea id="formMessage" name="message" class="form-textarea" placeholder="Write your message here..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary" id="formSubmitBtn" style="width: 100%;">
+                Send Message
+              </button>
+
+              <div id="formStatusMsg" class="form-status-msg" role="alert"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- =========================================================================
+       9. MINIMAL FOOTER
+       ========================================================================= -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="site-container footer-container">
+      <div class="footer-left">
+        <span class="footer-brand" id="footerBrand">Abijith.U</span>
+        <span class="footer-copy" id="footerCopyText">© 2026 Abijith.U. Engineered for precision.</span>
+      </div>
+      <ul class="footer-right" id="footerSocialLinks">
+        <!-- Populated from portfolioData.footer.socialLinks -->
+      </ul>
+    </div>
+  </footer>
+
+  <!-- Client Data Store and Logic Scripts -->
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

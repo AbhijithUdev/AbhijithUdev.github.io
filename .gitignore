@@ -1,0 +1,10 @@
+# Test screenshots generated during previewing
+screenshot*.png
+preview*.png
+*.log
+
+# OS metadata
+Thumbs.db
+.DS_Store
+.vscode/
+.idea/
