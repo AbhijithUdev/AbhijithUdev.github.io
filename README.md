@@ -108,5 +108,5 @@ Your website will automatically be live at:
 Search `js/data.js` for `[PLACEHOLDER]` to update:
 - [x] `personal.email`: Configured as `udeeshsushamakk@gmail.com`.
 - [ ] `personal.formspreeId`: Sign up at [formspree.io](https://formspree.io) (free), create a form, and paste your form ID (e.g., `xpwzlkab`).
-- [ ] `education[1]` & `education[2]`: Fill in your real 10th and 12th grade school names and completion years.
+- [x] `education`: Timeline updated (B.Tech 2026–Present, 12th passed in 2026, 10th passed in 2024). Edit school names in `education[1]` & `education[2]` if desired.
 - [ ] `projects`: Update project links or code snippets as you develop new security tools and repositories.

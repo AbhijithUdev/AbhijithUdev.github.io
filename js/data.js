@@ -216,7 +216,7 @@ scanner.probe_port(443)  # HTTPS verification: OK [200]`
     {
       degree: "B.Tech in Computer Science & Engineering (Cyber Security)",
       institution: "College of Engineering, Kallooppara",
-      period: "2023 – Present (Ongoing)",
+      period: "2026 – Present (Ongoing)",
       status: "Current",
       statusColor: "emerald",
       details:
@@ -224,17 +224,17 @@ scanner.probe_port(443)  # HTTPS verification: OK [200]`
     },
     {
       degree: "Higher Secondary Education (12th Grade)",
-      institution: "Higher Secondary School [PLACEHOLDER - Edit in data.js]",
-      period: "Completed [PLACEHOLDER - e.g. 2021 – 2023]",
+      institution: "Higher Secondary School [PLACEHOLDER - Edit school name in data.js]",
+      period: "2024 – 2026 (Completed)",
       status: "Completed",
       statusColor: "neutral",
       details:
-        "Focused study in Science stream (Mathematics, Physics, Chemistry, Computer Science). [PLACEHOLDER - update with your institution name]"
+        "Focused study in Science stream (Mathematics, Physics, Chemistry, Computer Science). [PLACEHOLDER - update with your school name]"
     },
     {
       degree: "Secondary School Leaving Certificate (10th Grade)",
-      institution: "High School [PLACEHOLDER - Edit in data.js]",
-      period: "Completed [PLACEHOLDER - e.g. 2021]",
+      institution: "High School [PLACEHOLDER - Edit school name in data.js]",
+      period: "2024 (Completed)",
       status: "Completed",
       statusColor: "neutral",
       details:
